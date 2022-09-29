@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("../IMG/confeitaria_fundo.jpg");
+}
+
+input{
+    margin-top: 5px;
+    border-radius: 0px;
+    width: 250px;
+    height: 20px;
+}
+input[type=submit]{
+    border-radius: 0px;
+    background-color: grey;
+    height: 25px;
+    width: 185px;
+}
+input[type=radio]{
+    margin-left: -5px;
+ width: 100px;
+}
+label{
+   text-align: left; 
+}
+
+.fundo{
+ height: 1000px;
+ width: 2500px;
+}
+
+#foto{
+    
+    margin-top: -423px;
+    margin-left: 650px;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(red, green, blue, 0);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#form{
+    border-style: solid;
+    margin-top: -900px;
+    margin-left: 250px;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    max-height: 60vh;
+    background-color:rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+} 
+#bemvindo{
+    margin-top: 10px;
+   height: 100px;
+   
+}
+
+::placeholder{
+    text-align: left;
+}
+#fotolado{
+    border-style: solid;
+    width: 500px;
+    height: 417px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
