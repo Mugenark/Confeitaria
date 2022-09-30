@@ -20,3 +20,12 @@ nav{
 #header{
     background-color:#5f4633 !important;
 }
+.dama{
+    margin-left: 35px;
+}
+    
+input[type=search]{
+    
+    margin-top: 20px;
+    margin-right: 30px;
+}

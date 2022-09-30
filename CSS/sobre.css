@@ -4,9 +4,8 @@
 }
 main{
     text-align: center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 470px;
+  
+    height: 670px;
     margin-left: 100px;
     margin-right: 100px;
     background-color: #e8cb9a;
@@ -32,8 +31,8 @@ nav{
 #logo1{
     border-radius: 10px;
    margin: center;
-    width: 250px;
-    height: 200px;
+    width: 510px;
+    height: 400px;
 }
 .dama{
     margin-left: 35px;
