@@ -30,6 +30,7 @@ nav{
     height: 80px;
 }
 #logo1{
+    border-radius: 10px;
    margin: center;
     width: 250px;
     height: 200px;
