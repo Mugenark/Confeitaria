@@ -2,10 +2,126 @@
     margin: 0;
     padding: 0;
 }
-#header{
-    background-color:brown !important;
+main{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 1100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #e8cb9a;
+}
+body{
+ 
+    background-image: url("../IMG/confeitaria_fundo.jpg");
 }
 
-.logo{
-    background-color:brown;
+nav{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header{
+    background-color:#5f4633 !important;
+}
+
+#logo{
+    margin-left: -100px;
+    border-top: 100px;
+    border-radius: 100px;
+    width: 90px;
+    height: 80px;
+}
+.dama{
+    margin-left: 35px;
+}
+    
+input[type=search]{
+    
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+
+.imgbolo{
+    
+    height: 200px;
+    width: 281px;
+}
+.bolo{
+    text-align: center;
+    margin-left: 30px;
+    height: 100px;
+    width:  281px;
+}
+.bolo1{
+    margin-top: -335px;
+    text-align: center;
+    margin-left: 430px;
+    height: 100px;
+    width:  281px;
+}
+
+.bolo2{
+    margin-top: -335px;
+    text-align: center;
+    margin-left: 836px;
+    height: 100px;
+    width:  281px;
+}
+
+.bolo3{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 30px;
+    height: 100px;
+    width:  281px;
+
+}
+
+.bolo4{
+    margin-top: -336px;
+    text-align: center;
+    margin-left:430px;
+    height: 100px;
+    width:  281px;
+
+}
+
+.bolo5{
+    margin-top: -340px;
+    text-align: center;
+    margin-left:  836px;
+    height: 100px;
+    width:  281px;
+ 
+}
+
+.bolo6{
+    margin-top: 40px;
+    text-align: center;
+    margin-left:  30px;
+    height: 100px;
+    width:  281px;
+}
+
+.bolo7{
+   margin-top: -336px;
+    text-align: center;
+    margin-left:  430px;
+    height: 100px;
+    width:  281px;
+}
+
+.bolo8{
+   margin-top:-336px;
+    text-align: center;
+    margin-left:  836px;
+    height: 100px;
+    width:  281px;
+}
+
+.comprar{
+    background-color: #b88b5c;
+    width: 150px;
+    border-radius: 5px;
+    border-style: hidden;
 }

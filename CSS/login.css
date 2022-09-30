@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
     overflow-y: hidden;
     background-image: url("../IMG/confeitaria_fundo.jpg");
@@ -11,20 +11,20 @@ body{
 
 input{
     margin-top: 5px;
-    border-radius: 0px;
+    border-radius: 6px;
+    border-style: inset;
     width: 250px;
     height: 20px;
 }
 input[type=submit]{
-    border-radius: 0px;
+
+    border-radius: 6px;
+    border-style: inset;
     background-color: grey;
     height: 25px;
     width: 185px;
 }
-input[type=radio]{
-    margin-left: -5px;
- width: 100px;
-}
+
 label{
    text-align: left; 
 }

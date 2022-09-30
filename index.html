@@ -8,50 +8,156 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS v5.2.0-beta1 -->
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="CSS/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
   
+    <style>
+      
+    </style>
 
 </head>
 
 <body>
-  <font face="Times New Roman">
+ 
   <header>
   <nav class="py-2 bg-light border-bottom" id="header">
     
     <div class="container d-flex flex-wrap">
       <ul class="nav me-auto"  >
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Inicio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Novidades</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link link-dark px-2 active" aria-current="page">Inicio</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Pricing</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">FAQs</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sobre nós</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Adicionar ao carrinho</a></li>
       </ul>
-      
-      <ul class="nav">
-        <li class="nav-item"><a href="HTML/login.html" class="nav-link link-dark px-2">Login</a></li>
+
+      <ul class="nav ">
+        <li class="nav-item"><a href="HTML/login.html" class="nav-link link-dark px-2 lc">Login</a></li>
         <li class="nav-item"><a href="HTML/cadrastro.html" class="nav-link link-dark px-2">Cadastrar-se</a></li>
       </ul>
+
     </div>
-  </nav>
-   
   <div class="container d-flex flex-wrap justify-content-center logo">
-      <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+      <a href="#" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="fs-4">Dama</span>
+
+       <img id="logo" src="IMG/Logo.png" alt="Logo">
+        <span class="fs-4 dama">Dama</span>
       </a>
      
       <form class="col-12 col-lg-auto mb-3 mb-lg-0">
         <input type="search" class="form-control" placeholder="Pesquisar..." aria-label="Pesquisar">
       </form>
     </div>
- 
+  </nav>
+  </header>
+
   <main>
 
+   <div class="card border-danger bolo">
+     <img class="card-img-top imgbolo" src="IMG/bolo1.jpg" alt="bolo">
+     <div class="card-body">
+       <h4 class="card-title">Bolo de chocolate</h4>
+       <p class="card-text">R$32,00</p>
+       <form action="">
+        <input class="comprar" type="submit" value="comprar">
+       </form>
+     </div>
+   </div>
+
+   <div class="card border-danger bolo1">
+     <img class="card-img-top imgbolo" src="IMG/bolo2.jpg" alt="bolo">
+     <div class="card-body">
+       <h4 class="card-title">Bolo de milho</h4>
+       <p class="card-text">R$37,90</p>
+       <form action="">
+        <input class="comprar" type="submit" value="comprar">
+       </form>
+     </div>
+   </div>
+
+   <div class="card border-danger bolo2">
+    <img class="card-img-top imgbolo" src="IMG/bolo3.jpg" alt="bolo">
+    <div class="card-body">
+      <h4 class="card-title">Bolo de Formigueiro</h4>
+      <p class="card-text">R$27,00</p>
+      <form action="">
+       <input class="comprar" type="submit" value="comprar">
+      </form>
+    </div>
+  </div>
+
+   <div class="card border-danger bolo3">
+    <img class="card-img-top imgbolo" src="IMG/bolo4.jpg" alt="bolo">
+    <div class="card-body">
+      <h4 class="card-title">Bolo de Laranja</h4>
+      <p class="card-text">R$29,90</p>
+      <form action="">
+       <input class="comprar" type="submit" value="comprar">
+      </form>
+    </div>
+  </div>
    
+  <div class="card border-danger bolo4">
+    <img class="card-img-top imgbolo" src="IMG/bolo5.jpg" alt="bolo">
+    <div class="card-body">
+      <h4 class="card-title">Bolo de Morango</h4>
+      <p class="card-text">R$42,00</p>
+      <form action="">
+       <input class="comprar" type="submit" value="comprar">
+      </form>
+    </div>
+  </div>
+
+  <div class="card border-danger bolo5">
+    <img class="card-img-top imgbolo" src="IMG/bolo6.jpg" alt="bolo">
+    <div class="card-body">
+      <h4 class="card-title">Bolo de Paçoca</h4>
+      <p class="card-text">R$36,90</p>
+      <form action="">
+       <input class="comprar" type="submit" value="comprar">
+      </form>
+    </div>
+  </div>
+
+  <div class="card border-danger bolo6">
+    <img class="card-img-top imgbolo" src="IMG/bolo7.jpg" alt="bolo">
+    <div class="card-body">
+      <h4 class="card-title">Bolo de Fubá</h4>
+      <p class="card-text">R$28,90</p>
+      <form action="">
+       <input class="comprar" type="submit" value="comprar">
+      </form>
+    </div>
+  </div>
+
+  <div class="card border-danger bolo7">
+    <img class="card-img-top imgbolo" src="IMG/bolo8.jpg" alt="bolo">
+    <div class="card-body">
+      <h4 class="card-title">Bolo de Abacaxi </h4>
+      <p class="card-text">R$35,00</p>
+      <form action="">
+       <input class="comprar" type="submit" value="comprar">
+      </form>
+    </div>
+  </div>
+
+  <div class="card border-danger bolo8">
+    <img class="card-img-top imgbolo" src="IMG/bolo9.jpg" alt="bolo">
+    <div class="card-body">
+      <h4 class="card-title">Bolo de Cenoura</h4>
+      <p class="card-text">R$40,00</p>
+      <form action="">
+       <input class="comprar" type="submit" value="comprar">
+      </form>
+    </div>
+  </div>
+
+
   </main>
+
   <footer>
     <!-- place footer here -->
   </footer>
@@ -63,7 +169,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
     integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
   </script>
-  </font>
+ 
 </body>
 
 </html>
