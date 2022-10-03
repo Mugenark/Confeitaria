@@ -3,12 +3,14 @@
     padding: 0;
 }
 main{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+
     height: 1100px;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: #e8cb9a;
+    background-color: #B88B5C;
+}
+#header a{
+    color: white !important;
 }
 body{
  
@@ -16,20 +18,14 @@ body{
 }
 
 nav{
-    color: white;
+   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #header{
-    background-color:#5f4633 !important;
+    background-color:#51140c !important;
 }
 
-#logo{
-    margin-left: -100px;
-    border-top: 100px;
-    border-radius: 100px;
-    width: 90px;
-    height: 80px;
-}
+
 .dama{
     margin-left: 35px;
 }
@@ -48,14 +44,14 @@ input[type=search]{
 }
 .bolo{
     text-align: center;
-    margin-left: 30px;
+    margin-left: 200px;
     height: 100px;
     width:  281px;
 }
 .bolo1{
     margin-top: -335px;
     text-align: center;
-    margin-left: 430px;
+    margin-left: 710px;
     height: 100px;
     width:  281px;
 }
@@ -63,7 +59,7 @@ input[type=search]{
 .bolo2{
     margin-top: -335px;
     text-align: center;
-    margin-left: 836px;
+    margin-left: 1236px;
     height: 100px;
     width:  281px;
 }
@@ -71,7 +67,7 @@ input[type=search]{
 .bolo3{
     margin-top: 40px;
     text-align: center;
-    margin-left: 30px;
+    margin-left:  200px;
     height: 100px;
     width:  281px;
 
@@ -80,7 +76,7 @@ input[type=search]{
 .bolo4{
     margin-top: -336px;
     text-align: center;
-    margin-left:430px;
+    margin-left:710px;
     height: 100px;
     width:  281px;
 
@@ -89,7 +85,7 @@ input[type=search]{
 .bolo5{
     margin-top: -340px;
     text-align: center;
-    margin-left:  836px;
+    margin-left: 1236px;
     height: 100px;
     width:  281px;
  
@@ -98,7 +94,7 @@ input[type=search]{
 .bolo6{
     margin-top: 40px;
     text-align: center;
-    margin-left:  30px;
+    margin-left: 200px;
     height: 100px;
     width:  281px;
 }
@@ -106,7 +102,7 @@ input[type=search]{
 .bolo7{
    margin-top: -336px;
     text-align: center;
-    margin-left:  430px;
+    margin-left:  710px;
     height: 100px;
     width:  281px;
 }
@@ -114,7 +110,7 @@ input[type=search]{
 .bolo8{
    margin-top:-336px;
     text-align: center;
-    margin-left:  836px;
+    margin-left: 1236px;
     height: 100px;
     width:  281px;
 }

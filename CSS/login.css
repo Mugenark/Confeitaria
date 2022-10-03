@@ -43,21 +43,21 @@ label{
     width: 500px;
     height: 500px;
     background-color: rgba(red, green, blue, 0);
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 #form{
     border-style: solid;
     margin-top: -900px;
-    margin-left: 250px;
+    margin-left: 450px;
     margin-right: auto;
     text-align: center;
-    width: 400px;
+    width: 500px;
     height: 600px;
     max-height: 60vh;
     background-color:rgb(255, 255, 255);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 } 
 #bemvindo{
     margin-top: 10px;
@@ -69,9 +69,11 @@ label{
     text-align: left;
 }
 #fotolado{
+    margin-left: 300px;
+    margin-top: -164px;
     border-style: solid;
-    width: 500px;
-    height: 417px;
+    width: 600px;
+    height:581px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
